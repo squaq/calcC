@@ -3,6 +3,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+$calc-lg:200px;
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -89,3 +91,11 @@ body {
     border-bottom: 0;
   }
 }
+#calc{
+    width: $calc-lg;
+}
+
+#display{width: $calc-lg;}
+.btn-lg{width: 50px;}
+.btn-lg-2{width: 99px;}
+
