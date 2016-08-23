@@ -95,7 +95,14 @@ body {
     width: $calc-lg;
 }
 
-#display{width: $calc-lg;}
-.btn-lg{width: 50px;}
-.btn-lg-2{width: 99px;}
+#display{
+    text-align: right;
+    width: $calc-lg;
+    color: #FFF;
+    background-color: black;
+    font-size: 30px;
+    
+}
+.btn-lg{width: $calc-lg/4;}
+.btn-lg-2{width: ($calc-lg/2)-1}
 
