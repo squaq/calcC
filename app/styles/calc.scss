@@ -1,0 +1,25 @@
+
+
+/* here is da base of the calculator size, you can change all size of the calculator */
+$calc-lg:400px;
+
+/*calculator*/
+#calc{
+    width: $calc-lg;
+}
+
+/*dislplay align settings*/
+#display{
+    text-align: right;
+    width: ($calc-lg)-2;
+    height: ($calc-lg)/3;
+    color: #FFF;
+    background-color: black;
+    font-size: ($calc-lg/5);
+}
+
+/*large button changed to this calculator*/
+.btn-lg{width: $calc-lg/4;}
+
+/* two spaces button */
+.btn-lg-2{width: ($calc-lg/2)-1}

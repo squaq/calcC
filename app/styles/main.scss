@@ -2,8 +2,8 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
+@import "calc.scss";
 
-$calc-lg:200px;
 
 .browsehappy {
   margin: 0.2em 0;
@@ -91,18 +91,5 @@ body {
     border-bottom: 0;
   }
 }
-#calc{
-    width: $calc-lg;
-}
 
-#display{
-    text-align: right;
-    width: $calc-lg;
-    color: #FFF;
-    background-color: black;
-    font-size: 30px;
-    
-}
-.btn-lg{width: $calc-lg/4;}
-.btn-lg-2{width: ($calc-lg/2)-1}
 
