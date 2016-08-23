@@ -6,6 +6,12 @@ $calc-lg:400px;
 /*calculator*/
 #calc{
     width: $calc-lg;
+//    transform: translateX(50%);
+//    float: left;
+//    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-bottom: 40px;
 }
 
 /*dislplay align settings*/
